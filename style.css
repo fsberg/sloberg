@@ -87,9 +87,10 @@ nav a:hover{
     flex-direction: column;
     gap:2em;
     position: sticky;
-    top: 40vh;
+    top: 50vh;
     padding-left: 2em;
     z-index: 19;
+    transform: translatey(-50%);
 }
 
 .social i{
@@ -125,15 +126,15 @@ nav a:hover{
 
 .hero{
     background-color: var(--brown);
-    top: 0px;
+    top: 0;
     min-height: 969px;
     padding-left: 10%;
-    transform: translateY(-23.5%);
+    transform: translateY(-30%);
     transition: .4s ease-in;
 }
 
 .hero.active{
-    transform: translateY(-40%);
+    transform: translateY(-60%);
     transition: .4s ease-in;
 }
 
@@ -188,6 +189,7 @@ nav a:hover{
     left: 50vw;
     transform: translateX(-50%);
     z-index: 1000;
+    
 
 }
 
