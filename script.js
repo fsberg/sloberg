@@ -1,6 +1,7 @@
 let about = document.querySelector('.about')
 let contact = document.querySelector('.contactnav')
 let hero = document.querySelector('.hero')
+let navlinks = document.querySelector('.navlinks')
 
 
 // navbut.onclick = () =>{
